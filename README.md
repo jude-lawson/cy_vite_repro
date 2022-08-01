@@ -7,6 +7,7 @@ I'm noticing some freezing using Cypress Component Testing with a Vite + React +
 
 ## Steps to reproduce
 1. Clone this repo.
+1. `cd cy_vite_repro`
 1. Install dependencies: `pnpm install`
 1. Run `pnpm cypress open` from the root directory.
 1. When the Cypress UI appears, choose component testing and run the only test `ComponentName.cy.tsx`. After that, the test will try to load but freeze.
