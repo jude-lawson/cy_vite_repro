@@ -4,7 +4,7 @@ specifiers:
   '@types/react': ^18.0.15
   '@types/react-dom': ^18.0.6
   '@vitejs/plugin-react': ^2.0.0
-  cypress: ^10.3.1
+  cypress: ^10.4.0
   react: ^18.2.0
   react-dom: ^18.2.0
   typescript: ^4.6.4
@@ -18,7 +18,7 @@ devDependencies:
   '@types/react': 18.0.15
   '@types/react-dom': 18.0.6
   '@vitejs/plugin-react': 2.0.0_vite@3.0.4
-  cypress: 10.3.1
+  cypress: 10.4.0
   typescript: 4.7.4
   vite: 3.0.4
 
@@ -691,8 +691,8 @@ packages:
     resolution: {integrity: sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==}
     dev: true
 
-  /cypress/10.3.1:
-    resolution: {integrity: sha512-As9HrExjAgpgjCnbiQCuPdw5sWKx5HUJcK2EOKziu642akwufr/GUeqL5UnCPYXTyyibvEdWT/pSC2qnGW/e5w==}
+  /cypress/10.4.0:
+    resolution: {integrity: sha512-OM7F8MRE01SHQRVVzunid1ZK1m90XTxYnl+7uZfIrB4CYqUDCrZEeSyCXzIbsS6qcaijVCAhqDL60SxG8N6hew==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
