@@ -1,5 +1,16 @@
 # Cypress / Vite Minimum Reproducible Example
 
+*Resolved*!!!
+The issue link with the Cypress team: https://github.com/cypress-io/cypress/issues/23114
+The Cypress team has merged a resolution for this that they will release some time in the future (post-Cypress-10.4.0), but the workaround for now is to either:
+1. Use `node 16.160` (the current LTS as of 2022-08-11)
+1. Or add the following to `vite.config.ts`
+```typescript
+server: {
+  host: '127.0.0.1'
+}
+```
+
 First off, I want to say for context that I think both Cypress and Vite are great tools and I'm sure that I am just missing something silly here. Thanks for building such helpful tools!
 
 ## Summary
